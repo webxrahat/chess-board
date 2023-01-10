@@ -10,10 +10,12 @@ function Square({color, hoverColor, selectedColor, textColor, onClick, numberCli
         backgroundColor: isSelected ? selectedColor : isHovered ? hoverColor : color,
         color: textColor,
         width: '150px',
-        height: '100px',
+        height: '95px',
         justifyContent:'center',
         alignItems:'center',
-        margin:'0px'
+        margin:'0px',
+        boxShadow:`0px 10px 10px rgba(0,0,0,0.5)`
+
       }}
       onClick={() => {
         setIsSelected(!isSelected);
