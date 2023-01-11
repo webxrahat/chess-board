@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div style={{ backgroundColor: color, paddingTop:'20px', paddingBottom:'20px'}}>
-      <button className='btn btn-primary block mx-auto' onClick={handleReload}>Reload</button>
+      <button className='btn btn-primary block mx-auto' onClick={handleReload}>Refresh</button>
       <ChessBoard/>
       {/* <Root/> */}
       {/* <ChessBoard size={8} /> */}
